@@ -1,5 +1,5 @@
 {
-  "name": "my-next-app",
+  "name": "map",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/colors": "^3.0.0",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-navigation-menu": "^1.1.4",
     "@sanity/client": "^6.15.1",
     "next": "14.1.1",
     "react": "^18",
     "react-dom": "^18"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/JoshuaWoodsdev/MapProject.git",
+  "author": "JoshuaWoods <nordev@protonmail.com>",
+  "license": "MIT"
 }
