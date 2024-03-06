@@ -1,35 +1,64 @@
 
-@import '@radix-ui/colors/black-alpha.css';
-/* reset */
-input {
-  all: unset;
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-.LabelRoot {
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 35px;
-  color: white;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
 }
 
-.Input {
-  width: 200px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  padding: 0 10px;
-  height: 35px;
-  font-size: 15px;
-  line-height: 1;
-  color: white;
-  background-color: var(--black-a5);
-  box-shadow: 0 0 0 1px var(--black-a9);
+body,html {
+    line-height: 1;
+    height: 100vh;
 }
-.Input:focus {
-  box-shadow: 0 0 0 2px black;
+
+ol, ul {
+    list-style: none;
 }
-.Input::selection {
-  background-color: var(--black-a9);
-  color: white;
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set base font size and family */
+html {
+    font-size: 16px; /* Adjust to suit your needs */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* Common system fonts */
+}
+
+/* Set body background and text color */
+body {
+    background-color: #ffffff; /* Adjust to suit your needs */
+    color: #333333; /* Adjust to suit your needs */
 }

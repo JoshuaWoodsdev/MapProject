@@ -3,7 +3,5 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 2rem;
-  min-height: 100vh;
-  min-width: 80vh;
 }
 
